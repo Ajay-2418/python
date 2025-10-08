@@ -35,3 +35,4 @@ for i in text:
         a+=1
 
 print("Diits:",d, "Alphabets",a)
+
