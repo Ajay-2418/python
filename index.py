@@ -21,6 +21,17 @@ while a < max:
     if a == max:
         print("Limt are reched")
 '''
-txt = "Apple color is red and Apple is so swet "
-x = txt.count('Apple')
-print(x)
+
+
+
+text = input("")
+
+d = 0
+a = 0
+for i in text:
+    if i.isdigit():
+        d+=1
+    elif i.isalpha():
+        a+=1
+
+print("Diits:",d, "Alphabets",a)
